@@ -1,0 +1,50 @@
+.ServicesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.ServicesContainer > h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.ItemContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 5em 0;
+}
+
+.ItemDescriptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.ItemDescriptions > h3 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: var(--black);
+  margin: 0;
+}
+
+.ItemDescriptions > p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.WebDev,
+.Bug {
+  width: 27em;
+  height: 18em;
+}
+
+.Mobil {
+  width: 22em;
+  height: 23em;
+}
