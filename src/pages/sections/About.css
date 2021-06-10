@@ -1,0 +1,27 @@
+.AboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AboutContainer > h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.AboutDescription {
+  display: flex;
+}
+
+.AboutText {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--black);
+  margin: 4em;
+}
+
+.AboutImage {
+  width: 46em;
+  height: 33em;
+}
