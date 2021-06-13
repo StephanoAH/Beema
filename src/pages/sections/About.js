@@ -6,7 +6,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="AboutContainer">
+    <section className="AboutContainer">
       <h2>More about Beema</h2>
       <div className="AboutDescription">
         <p className="AboutText">
@@ -23,7 +23,7 @@ function About() {
         </p>
         <img className="AboutImage" src={Rocket} alt="A rocket ignition" />
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -8,7 +8,7 @@ import "./Services.css";
 
 function Services() {
   return (
-    <div className="ServicesContainer">
+    <section className="ServicesContainer">
       <h2>Best Quality Software</h2>
       <div className="ItemContainer">
         <div className="ItemDescriptions">
@@ -55,7 +55,7 @@ function Services() {
           alt="An illustrations of a hand holding a hammer over a bug inside of a monitor"
         />
       </div>
-    </div>
+    </section>
   );
 }
 
